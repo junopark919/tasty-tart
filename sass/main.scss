@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Inter&family=Lora&display=swap');
+
+$color-primary: #bb3647;
+$color-primary-light: #df6c71;
+$color-secondary: #534431;
+$color-secondary-light: #a0886a;
+$color-bg: #ede6c7;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: $color-secondary;
+  box-sizing: border-box;
+}

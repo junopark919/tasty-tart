@@ -1,0 +1,14 @@
+{
+  "name": "tasty-tart",
+  "version": "1.0.0",
+  "description": "A handmade tart cafe in Champaign, IL",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Junho Park",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
